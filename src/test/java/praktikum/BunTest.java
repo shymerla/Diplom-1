@@ -1,5 +1,5 @@
+package praktikum;
 import org.junit.Test;
-import praktikum.Bun;
 import static org.junit.Assert.assertEquals;
 
 public class BunTest {
@@ -20,8 +20,4 @@ public class BunTest {
         float actualPrice = bun.getPrice();
         assertEquals("Price of bun ERROR", bunPrice, actualPrice, 0);
     }
-
-
-
-
 }

@@ -45,4 +45,5 @@ public class IngredientTest {
         IngredientType actualIngredientType = ingredient.getType();
         assertEquals("IngredientType NOT correct", ingredientType, actualIngredientType);
     }
+
 }

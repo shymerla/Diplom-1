@@ -82,8 +82,6 @@ public class BurgerTest {
                           String.format("%nPrice: %f%n", (testBunPrice*2 + testIngredientPrice));
         assertEquals("Receipt NOT correct", expected, burger.getReceipt());
 
-
-
     }
 
 }
